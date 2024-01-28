@@ -1,0 +1,62 @@
+/* Fonts */
+
+:root{
+  /* ========== Colors ========== */
+  --bg-black-color: #0f0f0f; 
+  --nav-bg-black-color: #151515; 
+  --text-color: #1b1b1b;
+  --text-color-light: #ffffff;
+  --text-color-black: #000000;
+  --text-color-main: #FFE600;
+  
+  /* ========== Font and Typography  ========== */
+  --body-font: "Orbitron";
+  --text-font: "Merriweather";
+  --biggest-font-size: 48px;
+  --h1-font-size: 32px;
+  --h2-font-size: 20px;
+  --h3-font-size: 16px;
+  --normal-font-size: 15px;
+  --small-font-size: 13px;
+  
+  /* ========== Font Weight  ========== */
+  --font-regular: 400;
+  --font-semi-bold: 700;
+  --font-bold: 900;
+}
+
+
+
+/* GENERAL CSS */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Merriweather";
+  background-color: var(--bg-black-color);
+}
+
+button,
+input{
+  outline: none;
+  border: none;
+}
+
+.container{
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1480px;
+}
+
+#hidden{
+  display: none;
+}
